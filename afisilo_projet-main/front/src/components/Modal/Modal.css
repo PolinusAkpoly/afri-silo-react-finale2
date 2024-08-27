@@ -1,0 +1,17 @@
+.modal-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1055;
+    width: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+.modal-container .btn-primary{
+    background-color: var(--main-color) !important;
+}
+.modal-image {
+   display: none !important;
+}

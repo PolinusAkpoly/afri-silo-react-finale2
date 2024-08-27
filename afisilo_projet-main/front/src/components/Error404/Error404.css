@@ -1,0 +1,21 @@
+.Error404 {}
+.Error404 .error-message{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Error404 .error-message h3{
+    font-size: 7rem;
+    color: var(--main-color);
+}
+.Error404 .error-message p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Error404 .error-message .divider{
+    border: 1px solid black;
+    width: 80px;
+}

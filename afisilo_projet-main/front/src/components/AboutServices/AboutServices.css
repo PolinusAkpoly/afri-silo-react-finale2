@@ -1,0 +1,56 @@
+.AboutServices {
+    background-color: #efefef;
+
+}
+
+.AboutServices .container{
+    /* padding: 50px 10px; */
+}
+
+.AboutServices .container .service-item{
+    
+}
+
+.AboutServices .container .service-item h3{
+    font-size: 1.2rem;
+}
+
+.AboutServices .container .service-item:hover h3{
+    font-size: 1.0rem;
+    color: #fff;
+}
+
+.AboutServices .container .service-item img{
+    height: auto;
+}
+
+.AboutServices .container .service-item{
+    transition: all 2s;
+    /* animation-duration: 2s; */
+    background-color: #fff;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%);
+}
+
+.AboutServices .container .service-item:hover{
+    transition: all 1s;
+    color: var(--main-color-white) !important;
+    background-color: var(--main-color);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.AboutServices .container .service-content{
+    text-align: justify;
+    padding: 5px;
+}
+
+.service-action button:hover {
+    color: var(--main-color-white);
+}
+
+.service-action button{
+    font-weight: bold;
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+    text-transform: uppercase;
+}

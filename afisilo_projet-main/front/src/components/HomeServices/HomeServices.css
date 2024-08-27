@@ -1,0 +1,98 @@
+
+/*
+Generate with new-react-cli : Sat, 16 Jul 2022 15:00:34 GMT
+Free training on https://mudey.fr
+*/
+.HomeServices {}
+.HomeServices .grid{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.HomeServices .service-item{
+    border: 1px solid #eee;
+    transition: all 0.3s ease-in-out;
+    min-height: 280px;
+    padding: 20px;
+    margin-bottom: 20px
+}
+.HomeServices .service-item .service-icon i{
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+.HomeServices .service-item .service-title-content{
+    border-bottom: 5px solid var(--main-color);
+}
+.HomeServices .service-item .service-title-content h2{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.HomeServices .service-item .service-action button{
+    /* border-bottom: 2px solid var(--main-color); */
+    border: none;
+    padding: 5px;
+}
+.HomeServices .service-item .service-description{
+    font-size: 1.2rem;
+    padding: 10px 0;
+    text-align: justify;
+}
+
+@media screen and (max-width: 992px){
+    .HomeServices .grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Generate with new-react-cli : Sat, 16 Jul 2022 15:00:34 GMT
+Free training on sur https://mudey.fr
+Teacher Profile : https://mudey.fr/user/espero-akpoli
+Teacher Email : eakpoli@mudey.fr
+Teacher WhatsApp : +33 7 77 67 41 57
+*/

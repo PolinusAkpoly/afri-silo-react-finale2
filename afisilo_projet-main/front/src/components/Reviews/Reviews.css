@@ -1,0 +1,62 @@
+.Reviews {
+    padding: 50px;
+    background-color: var(--main-color-secondary);
+}
+
+.Reviews .initials{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+.Reviews .row{
+    padding-bottom: 50px;
+
+}
+.Reviews img{
+    border-radius:500px;
+}
+.Reviews h3{
+    margin-bottom: 30px;
+}
+.Reviews p{
+    font-size:1.2rem;
+    text-align: justify;
+}
+.Reviews .Reviews-item .col-md-4{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.Reviews .col-md-4{
+    /* justify-content: center; */
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }

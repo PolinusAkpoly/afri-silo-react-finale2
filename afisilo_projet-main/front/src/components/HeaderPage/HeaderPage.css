@@ -1,0 +1,28 @@
+.HeaderPage {}
+
+.HeaderPage {
+    height: 150px;
+    /* padding: 10px; */
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    animation-duration: 500ms !important;
+    /* background-image: url("assets/common/bg-default.jpg"); */
+}
+
+.HeaderPage .cover {
+    background: var(--main-color);
+    opacity: 1;
+    height: 100%;
+}
+.HeaderPage h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0 10px;
+}

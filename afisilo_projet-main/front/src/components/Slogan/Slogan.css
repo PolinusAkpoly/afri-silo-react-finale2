@@ -1,0 +1,60 @@
+.Slogan{
+    background-color: var(--main-color);
+    color: white;
+}
+.Slogan .row{
+    margin-top: 30px;
+    /* height: 400px; */
+    padding: 20px 0;
+}
+.slogan-image{
+    /* height: 130px; */
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: center;
+}
+.slogan-image i{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    color: white;
+    border-radius: 100px;
+    width: 130px;
+    height: 130px;
+}
+.slogan-image + h2{
+    font-size: 1.3rem;
+    height: 50px;
+    margin: 20px auto;
+}
+.slogan-image + h2 + p{
+    height: auto;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .Slogan .row{
+        height: auto;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+   
+}

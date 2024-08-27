@@ -1,0 +1,36 @@
+.Slider .carousel-item {
+    /* height: 500px; */
+    background-repeat: no-repeat;
+    background-position-x: 68%;
+    background-size: cover;
+}
+
+
+.Slider {
+    /* background: var(--main-color); */
+}
+.Slider .carousel-item  img{
+    border-bottom: 50px solid var(--main-color-secondary);
+    /* border-radius: 0 0 260px 260px; */
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .Slider .carousel-item {
+        /* height: 700px; */
+    }
+
+}

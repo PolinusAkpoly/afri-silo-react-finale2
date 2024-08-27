@@ -1,0 +1,64 @@
+.Contact {
+    /* height: 100vh; */
+    padding-bottom: 50px;
+    background-color: #efefef;
+}
+
+.Contact .page-container {
+    /* background-color: var(--main-color-white); */
+    /* height: 100vh !important; */
+}
+
+.Contact>.container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.Contact .contact-img {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-size: cover;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%);
+    /* background-color: red; */
+}
+.Contact .container{
+}
+.Contact .ContactForm{
+    margin: 0px auto;
+    max-width: 600px;
+}
+.form-contact {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .Contact {
+        height: auto;
+    }
+    
+    .Contact .page-container {
+        background-color: var(--main-color-white);
+        height: auto;
+    }
+    
+    .Contact .contact-img {
+        height: 200px;
+    }
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (max-width: 1400px) {}

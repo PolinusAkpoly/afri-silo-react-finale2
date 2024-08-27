@@ -1,0 +1,82 @@
+
+/*
+Generate with new-react-cli : Sat, 16 Jul 2022 16:12:57 GMT
+Free training on https://mudey.fr
+*/
+.ProductItem {
+    width: 100%;
+    /* margin: 10px 0; */
+    padding: 5px;
+    height: 400px;
+    
+}
+.ProductItem button{
+    background-color: var(--main-color);
+    color: var(--main-color-white);
+    border: none;
+    bottom: 0;
+    
+}
+.ProductItem img{
+    width: 100%;
+    height: 300px;
+}
+.ProductItem-name{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+Generate with new-react-cli : Sat, 16 Jul 2022 16:12:57 GMT
+Free training on sur https://mudey.fr
+Teacher Profile : https://mudey.fr/user/espero-akpoli
+Teacher Email : eakpoli@mudey.fr
+Teacher WhatsApp : +33 7 77 67 41 57
+*/

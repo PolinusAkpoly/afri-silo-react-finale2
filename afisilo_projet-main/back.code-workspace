@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "back"
+		},
+		{
+			"path": "front"
+		},
+		{
+			"path": "docs"
+		}
+	],
+	"settings": {}
+}
